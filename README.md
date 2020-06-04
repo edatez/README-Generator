@@ -16,14 +16,14 @@ The user will be prompted for their GitHub username and other information pertai
 ### Screenshot 1 - Usage
 Here is a screenshot that shows the list of questions the user will be asked:
 
-![Usage](Images\Screenshot-1.PNG)
+![Usage](./Images/Screenshot-1.PNG)
 
 
 ### Screenshot 2 - Result
 
 The README generator then creates a README.md file similar to the screenshot below:
 
-![Result](Images\Screenshot-3.PNG)
+![Result](./Images/Screenshot-3.PNG)
 
 ### File - Readme.md
 
