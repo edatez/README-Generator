@@ -1,53 +1,33 @@
+# Readme Generator
 
-# edatez
-[![GitHub license](https://img.shields.io/badge/license-GNU AGPLv3-blue.svg)](https://github.com/edatez/edatez)
-
-## Description
-
-edatez
-
-## Table of Contents 
-
-* [Installation](#installation)
-
-* [Usage](#usage)
-
-* [License](#license)
-
-* [Contributing](#contributing)
-
-* [Tests](#tests)
-
-* [Questions](#questions)
-
-## Installation
-
-To install necessary dependencies, run the following command:
-
-```
-undefined
-```
+This is a command-line application that dynamically generates a README.md from a user's input. 
 
 ## Usage
+The application will be invoked with the following command:
 
-eda
-
-## License
-
-    This project is licensed under the GNU AGPLv3 license.
-  
-## Contributing
-
-eda
-
-## Tests
-
-To run tests, run the following command:
-
-```
-npm test
+```sh
+cd develop
+node index.js
 ```
 
-## Questions
+## Steps
+The user will be prompted for their GitHub username and other information pertaining to the project the README is for.
 
-If you have any questions about the repo, open an issue or contact [edatez](www.edatezcanli.com) directly at edatezcanli@gmail.com.
+### Screenshot 1 - Usage
+Here is a screenshot that shows the list of questions the user will be asked:
+
+![Usage](Images\Screenshot-1.PNG)
+
+
+### Screenshot 2 - Result
+
+The README generator then creates a README.md file similar to the screenshot below:
+
+![Result](Images\Screenshot-3.PNG)
+
+### File - Readme.md
+
+The example shown above can be accessed in this repository at the following path:
+```sh
+./develop/README.md
+```
